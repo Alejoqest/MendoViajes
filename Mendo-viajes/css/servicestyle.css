@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+:root {
+    --font-form-color: white;
+    --font-form-family: black;
+    --btn-summit-color: green;
+    --color--btn-setting-hover-color: rgb(16, 116, 38);
+    --color-div-form: darkolivegreen;
+    --color-btn-form-border: white;
+    --color-form-section: rgb(232, 254, 210);
+}
+.main-sec {
+    width: 100%;
+    background-color: var(--color-form-section);
+    height: 100%;
+    padding: .5em 0em;
+    display: flex;
+    justify-content: center;
+}
+.div-fly-form{
+    background-color: darkolivegreen;
+    margin: 0.6em .5em;
+    padding: 1em 1em;
+    line-height: 2rem;
+    color: white;
+    border-radius: 1.5rem;
+    max-width: 1000px;
+}
+.div-fly-way {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.fly-form-button {
+    color: white;
+    background-color: var(--color-div-form);
+    padding: .5rem .7rem;
+    border: .05rem ridge var(--color-btn-form-border);
+    border-radius: 1.5rem;
+    margin: .5rem 0rem;
+    transition: all .5s;
+}
+.fly-form-button:hover {
+    border: 0.05rem ridge var(--btn-summit-color);
+    background-color: var(--color-btn-form-border);
+    color: var(--btn-summit-color);
+}
+.div-fly-form .fly-input {
+    border-radius: 5px;
+    border: .2em solid white;
+    padding: .3rem .15rem;
+    padding-left: 1.5rem;
+    margin: .6rem 0rem;
+}
+.div-fly-form .fly-input:focus {
+    border-color: var(--btn-summit-color);
+}
+#Fly-destiny {
+    background-image: url(../img/bx-map.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 95%;
+}
+@media screen and (min-width:635px) {    
+    #Fly-destiny {
+        width: fit-content;
+    }
+}
+#Fly-in {
+    background-image: url(../img/bx-calendar-plus.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 8.5rem;
+}
+#Fly-out {
+    background-image: url(../img/bx-calendar-minus.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 8.5rem;
+}
+#Fly-adult {
+    background-image: url(../img/bx-male.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 7rem;
+}
+#Fly-young {
+    background-image: url(../img/bx-child.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 7rem;
+}
+#Fly-class {
+    background-image: url(../img/bx-user.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.fly-form-setting {
+    background-color: var(--btn-summit-color);
+    padding: .8rem;
+    color: white;
+    padding-left: 1.8rem;
+    border: 0.4rem solid var(--btn-summit-color);
+    border-radius: 1.5rem;
+}
+.fly-form-setting:hover {
+    background-color: var(--color--btn-setting-hover-color);
+    border-color: var(--color--btn-setting-hover-color);
+    transition: all .5s;
+}
+#Fly-form-summit {
+    background-image: url(../img/bx-search.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Fly-form-reset {
+    background-image: url(../img/bx-reset.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Fly-in-out-form {
+    display: none;
+}
+.result-sec {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(166, 176, 201);
+}
+.div-result-do {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 300px;
+    max-width: 1000px;
+    min-height: 400px;
+    color: black;
+    border: .5em solid rgb(169, 189, 215);
+    background-color: rgb(187, 216, 255);
+}
+@media screen and (min-width:635px) {    
+    .div-result-do {
+        min-width: 600px;
+    }
+}
+
+div.test {
+    width: 1000px;
+    height: 100px;
+    background-image: linear-gradient(to right, gray, white);
+    animation-name: load-ani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes load-ani {
+    0% { }
+}

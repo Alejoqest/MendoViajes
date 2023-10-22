@@ -1,0 +1,40 @@
+.main-art{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section-presentation{
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    border-bottom: 2rem solid white;
+    background: url('../img/madrid-spain.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.section-presentation-div{
+    max-width: 1100px;
+    height: fit-content;
+    margin: 2.5rem;
+    padding: 2.5rem;
+    box-sizing: content-box;
+    background-color: white;
+    border: .3rem groove black;
+}
+.section-presentation img {
+    max-width: 100%;
+    min-height: 100%;
+    max-height: fit-content;
+    border-bottom: .5rem solid black;
+    object-fit: scale-down;
+}
+.main-introduction {
+    display: block;
+}
+.main-present{
+    padding: 1em;
+    display: block;
+    width: 950px;
+    background-color: white;
+}

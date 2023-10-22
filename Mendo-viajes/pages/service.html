@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | MendoViajes</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/genstyle.css">
+    <link rel="stylesheet" href="../css/servicestyle.css">
+</head>
+<body>
+    <header class="header-nav">
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul class="ul-navbar">
+                    <li class="nav-li"><a href="index.html" class="logo"><i class='bx bxs-plane-take-off bx-lg'>MendoViajes</i></a></li>
+                    <li class="nav-li"><a href="#" class="navop">Servicios</a></li>
+                    <li class="nav-li"><a href="#" class="navop nav-mob">Atención</a></li>
+                    <li class="nav-li"><a href="about-contact.html" class="navop">Contacto</a></li>
+                    <li class="nav-li"><a href="login.html" class="navop"><i class='bx bx-log-in'></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="main-sec">
+        <div class="div-fly-form">
+            <div class="div-fly-way">    
+                <h1>Vuelos</h1>
+                <button id="btn-fly-in" class="fly-form-button">Solo ida</button> 
+                <button id="btn-fly-in-out" class="fly-form-button">Ida y vuelta</button>
+            </div>
+            <form action="javascript:false" id="Fly-in-form">
+                <label for="Fly-destiny">Destino: </label>
+                <select name="destino" id="Fly-destiny" name="destino" class="fly-input" required>
+                    <option value="" disabled selected>Destino</option>
+                    <option value="miami">Miami, Florida, Estados Unidos.</option>
+                    <option value="nueva-york">Nueva York, Nueva York, Estados Unidos</option>
+                    <option value="fort-lauderdale">Fort Lauderdale, Florida, Estados Unidos</option>
+                    <option value="los-angeles">Los Ángeles, California, Estados Unidos</option>
+                    <option value="orlando">Orlando, Florida, Estados Unidos</option>
+                    <option value="montreal">Montreal, Quebec, Canadá</option>
+                    <option value="toronto">Toronto, Ontario, Canadá</option>
+                    <option value="vancouver">Vancouver, Columbia Británica, Canadá</option>
+                    <option value="mexico">Cuidad de México, México D.F., México</option>
+                    <option value="buenos-aires">Buenos Aires, Cuidad de Buenos Aires, Argentina</option>
+                    <option value="madrid">Madrid, Comunidad de Madrid, España</option>
+                    <option value="barcelona">Barcelona, Cataluña, España</option>
+                    <option value="londres">Londres, Inglaterra, Reino Unido</option>
+                    <option value="frankfurt">Frankfurt, Hessen, Alemania</option>
+                    <option value="berlin">Berlín, Berlín, Alemania</option>
+                    <option value="paris">París, lle de France, Francia</option>
+                    <option value="roma">Roma, Lazio, Italia</option>
+                    <option value="milan">Milán, Lombardia, Italia</option>
+                    <option value="tokio">Tokio, Tokyo-to, Japón</option>
+                    <option value="shanghai">Shanghai, Shanghai Shi, República Popular China</option>
+                </select>
+                <br>
+                <label for="Fly-in">Fecha: </label>
+                <input type="date" name="fechaVuelo" id="Fly-in" class="fly-input" placeholder="Ida">
+                <br>
+                <label for="Fly-adult Fly-young">Personas: </label>
+                <input type="number" name="" id="Fly-adult" class="fly-input" placeholder="Adultos">
+                <input type="number" name="" id="Fly-young" class="fly-input" placeholder="Menores">
+                <br>
+                <label for="Fly-class">Clase de vuelo: </label>
+                <select name="clase" id="Fly-class" class="fly-input" required>
+                    <option value="economica"selected>Económica</option>
+                    <option value="premium">Premium economy</option>
+                    <option value="ejecutiva">Ejecutiva/Business</option>
+                    <option value="primera">Primera Clase</option>
+                </select> 
+                <br>
+                <input type="submit" class="fly-form-setting" id="Fly-form-summit" value="Buscar">
+                <input type="reset" class="fly-form-setting" id="Fly-form-reset" value="Reiniciar">
+            </form>
+            <form action="" id="Fly-in-out-form">
+                <label for="Fly-destiny">Destino: </label>
+                <select name="destino" id="Fly-destiny" class="fly-input" required>
+                    <option value="" disabled selected>Destino</option>
+                    <option value="miami">Miami, Florida, Estados Unidos.</option>
+                    <option value="nueva-york">Nueva York, Nueva York, Estados Unidos</option>
+                    <option value="fort-lauderdale">Fort Lauderdale, Florida, Estados Unidos</option>
+                    <option value="los-angeles">Los Ángeles, California, Estados Unidos</option>
+                    <option value="orlando">Orlando, Florida, Estados Unidos</option>
+                    <option value="montreal">Montreal, Quebec, Canadá</option>
+                    <option value="toronto">Toronto, Ontario, Canadá</option>
+                    <option value="vancouver">Vancouver, Columbia Británica, Canadá</option>
+                    <option value="mexico">Cuidad de México, México D.F., México</option>
+                    <option value="buenos-aires">Buenos Aires, Cuidad de Beunos Aires, Argentina</option>
+                    <option value="madrid">Madrid, Comunidad de Madrid, España</option>
+                    <option value="barcelona">Barcelona, Cataluña, España</option>
+                    <option value="londres">Londres, Inglaterra, Reino Unido</option>
+                    <option value="frankfurt">Frankfurt, Hessen, Alemania</option>
+                    <option value="berlin">Berlín, Berlín, Alemania</option>
+                    <option value="paris">París, lle de France, Francia</option>
+                    <option value="roma">Roma, Lazio, Italia</option>
+                    <option value="milan">Milán, Lombardia, Italia</option>
+                    <option value="tokio">Tokio, Tokyo-to, Japón</option>
+                    <option value="shanghai">Shanghai, Shanghai Shi, República Popular China</option>
+                </select>
+                <br>
+                <label for="Fly-in">Fecha: </label>
+                <input type="date" name="fechaVuelo" id="Fly-in" class="fly-input" placeholder="Ida">
+                <input type="date" name="" id="Fly-out" class="fly-input" placeholder="Vuelta">
+                <br>
+                <label for="Fly-adult Fly-young">Personas: </label>
+                <input type="number" name="fly-adult" id="Fly-adult" class="fly-input" min="1" placeholder="Adultos">
+                <input type="number" name="fly-young" id="Fly-young" class="fly-input" min="0" placeholder="Menores">
+                <br>
+                <label for="Fly-class">Clase de vuelo: </label>
+                <select name="fly-type" id="Fly-class" class="fly-input" required>
+                    <option value="economica"selected>Económica</option>
+                    <option value="premium">Premium economy</option>
+                    <option value="ejecutiva">Ejecutiva/Business</option>
+                    <option value="primera">Primera Clase</option>
+                </select> 
+                <br>
+                <input type="submit" class="fly-form-setting" id="Fly-form-summit" value="Buscar">
+                <input type="reset" class="fly-form-setting" id="Fly-form-reset" value="Reiniciar">
+            </form>
+        </div>
+    </section>
+    <section class="result-sec">
+        <div class="div-result-do">
+            <i class='bx bx-search-alt-2 bx-lg'><p>Haga su busqueda.</p></i>
+        </div>
+    </section>
+    <script src="../js/Service-fetch.js"></script>
+    <script src="../js/Service-forms.js"></script>
+    <script src="../js/Service-gestor.js"></script>
+</body>
+</html>

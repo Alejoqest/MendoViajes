@@ -1,0 +1,107 @@
+:root {
+    /*color font*/
+    --color-font-label: rgb(0, 0, 0);
+    --color-font-textarea: rgb(255, 255, 255);
+    --color-font-outform: rgb(128, 128, 128);
+    /*color textarea*/
+    --color-textarea-normal: rgb(211, 211, 211);
+    --color-textarea-hover: rgb(144, 238, 144);
+    --color-textarea-focus: rgb(0, 100, 0);
+    /*color area*/
+    --color-form-area: rgb(242, 242, 242);
+    --color-div: rgb(211, 211, 211);
+    /*button forms*/
+    --color-button: rgb(0, 100, 0);
+    --color-button-hover: rgb(0, 150, 0);
+    --color-button-focus: rgb(0, 250, 0);
+}
+/*form container*/
+.form-title-container {
+    text-align: center;
+    background-color: var(--color-div);
+    color: var(--color-font-outform);
+    padding: .5em;
+}
+.form-flow {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    background: url('../img/miami-form.jpg') no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.form-container {
+    text-align: center;
+    box-sizing: border-box;
+    width: 500px;
+    background-color: var(--color-form-area);
+    padding: 1rem;
+    line-height: 1.5em;
+    border-right: .3em solid var(--color-div);
+    border-left: .3em solid var(--color-div);
+}
+/*textarea*/
+.form-textarea {
+    width: 100%;
+    border: .2em solid var(--color-font-textarea);
+    background-color: var(--color-textarea-normal);
+    padding: .3em;
+    resize: none;
+    color: var(--color-font-label);
+    transition: all .5s ease-in-out;
+}
+.form-textarea:hover {
+    background-color: var(--color-textarea-hover);
+}
+.form-textarea::placeholder{
+    color: var(--color-font-label);
+    transition: all .5s ease-in-out;
+}
+.form-textarea:focus {
+    background-color: var(--color-textarea-focus);
+    color: white;
+}
+.form-textarea:focus::placeholder {
+    color: white;
+}
+/*button form send*/
+.btn-form {
+    width: 100%;
+    padding: 1em 0em;
+    color: var(--color-font-textarea);
+    background-color: var(--color-button);
+    border: .2em solid var(--color-font-label);
+}
+.btn-form:hover {
+    color: var(--color-form-area);
+    background-color: var(--color-button-hover);
+}
+.btn-form:focus {
+    background-color: var(--color-button-focus);
+    color: var(--color-font-outform);
+    border-color: var(--color-textarea-normal);
+}
+/*form footer*/
+.form-footer-container {
+    padding: .5em 0em;
+    text-align: center;
+    background-color: var(--color-div);
+    color: var(--color-font-outform);
+}
+@media screen and (max-width:900px) and (orientation: landscape) {
+    .form-flow {
+        justify-content: right;
+    }
+    .form-container {
+        border-right: none;
+    }
+    .form-title-container {
+        text-align: right;
+        padding-right: 11em;
+    }
+    .form-footer-container {
+        text-align: right;
+        padding-right: 3em;
+    }
+}

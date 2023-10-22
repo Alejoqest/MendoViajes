@@ -1,0 +1,130 @@
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(28): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(30): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(30): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(30): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(30): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(30): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\prueba.php(18): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\prueba.php(18): BD->Select('viajes ida', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:39
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(39): mysqli_query(Object(mysqli), 'SELECT `numVuel...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\prueba.php(18): BD->Select('viajes ida', Array)
+#2 {main}
