@@ -10,6 +10,7 @@
     --color-btn-form-border: white;
     --color-form-section: rgb(232, 254, 210);
 }
+/*Forms*/
 .main-sec {
     width: 100%;
     background-color: var(--color-form-section);
@@ -123,6 +124,17 @@
 #Fly-in-out-form {
     display: none;
 }
+/*Result number*/
+.sec-result-obtained {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.div-result-obtained {
+    width: 800px;
+    
+}
+/*result*/
 .result-sec {
     display: flex;
     justify-content: center;

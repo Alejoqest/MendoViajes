@@ -1,1 +1,1 @@
-SELECT `numVuelo`, `destino`, `clase`, `equipaje`, `fechaVuelo`, `horaVuelo`, `duracionVuelo`, `precioPer` FROM `viajes ida` WHERE `destino`='buenos-aires' AND `clase`='economica' AND `fechaVuelo`='2023-10-22' ORDER BY `precioPer`;
+SELECT `numVuelo`, `destino`, `clase`, `equipaje`, `fechaVuelo`, `horaVuelo`, `duracionVuelo`, `precioPer` FROM `viajes ida` WHERE `destino`='buenos-aires' AND `clase`='economica' AND `fechaVuelo`='2023-11-01' ORDER BY `precioPer`;

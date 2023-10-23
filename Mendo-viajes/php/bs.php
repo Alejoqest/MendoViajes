@@ -28,10 +28,6 @@ class BD {
             if ($i > 0) {
                 $sql .= "AND ";
             }
-            if ($key == "fechaVuelo") {
-                $val = strtotime($val);
-                $val = date('Y-m-d');
-            }
             $sql .="`$key`='$val' ";
             $i++;
         }

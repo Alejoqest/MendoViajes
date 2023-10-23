@@ -10,9 +10,9 @@ header("Pragma: no-cache");
 const BDNOMBRE = "mendoviajes";
 const BDUSER = "root";
 const BDPASS = "";
-$url = "prueba.php?destino=buenos-aires";
+$url = "fechaVuelo=2023-11-01";
 $result = [];
-    parse_str($_SERVER["QUERY_STRING"], $_SELECT);
+    parse_str($url, $_SELECT);
     try{
         $bd = new BD(BDUSER, BDPASS, BDNOMBRE);
         $result += ['datos' => $bd->Select("viajes ida", $_SELECT)];
