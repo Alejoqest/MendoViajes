@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 :root{
     --color-link: rgb(255, 255, 255);
     --color-link-footer: rgb(178, 178, 178);
     --color-header: rgb(47, 79, 79);
     --color-footer-border: rgb(0, 0, 0);
     --color-footer: rgb(32, 49, 49);
+    --color-background: rgb(190, 226, 207);
+    --font-main-family: "Noto Sans", sans-serif; 
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-main-family);
 }
 /*header-navbar*/
 .header-nav {
@@ -84,7 +88,7 @@ li a.navop:hover {
     }
 }
 body{
-    background-color: red;
+    background-color: var(--color-background);
 }
 /*footer*/
 .footer-div {
@@ -115,17 +119,18 @@ body{
     justify-content:space-around;
     margin: 5px;
 }
-.foot-li a{
+.foot-li a, .sml a{
     color: var(--color-link-footer);
     text-decoration: none;
+    transition: all .5s;
+}
+.foot-li a:hover, .sml a:hover {
+    color: var(--color-link);
 }
 .sml{
     display: inline;
     list-style-type: none;
     padding:0rem .2rem;
-}
-.sml a{
-    color: var(--color-link-footer);
 }
 @media screen and (max-width:635px) {    
     .flow-footer{
@@ -134,5 +139,9 @@ body{
     }
     .footer-flow-column{
         width: 100%;
+    }
+    .down-nav {
+        display: inline-block;
+        text-align: center;
     }
 }

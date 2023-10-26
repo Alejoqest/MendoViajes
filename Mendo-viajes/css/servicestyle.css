@@ -1,26 +1,48 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 :root {
     --font-form-color: white;
     --font-form-family: black;
-    --btn-summit-color: green;
-    --color--btn-setting-hover-color: rgb(16, 116, 38);
-    --color-div-form: darkolivegreen;
+    --font-outsider-size: 1.5rem;
+    --btn-summit-color: rgb(77, 129, 88);
+    --color--btn-setting-hover-color: rgb(4, 156, 131);
+    --color-background-main: rgb(171, 185, 195);
+    --color-background-gradient: rgb(116, 122, 127);
+    --color-form-cotainer: rgb(162, 218, 186);
+    --color-div-form: rgb(42, 104, 80);
     --color-btn-form-border: white;
-    --color-form-section: rgb(232, 254, 210);
 }
 /*Forms*/
-.main-sec {
+.wrapper-main-sec {
     width: 100%;
-    background-color: var(--color-form-section);
-    height: 100%;
-    padding: .5em 0em;
     display: flex;
     justify-content: center;
+    background-color: var(--color-background-main);
+}
+.main-sec {
+    width: 850px;
+    height: 100%;
+    padding: .5em 0em;
+}
+.div-container-direction {
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    margin: 1rem 0rem;
+    font-size: var(--font-outsider-size);
+}
+.div-container-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--color-form-cotainer);
+    border-radius: 2rem;
 }
 .div-fly-form{
-    background-color: darkolivegreen;
+    background-color: var(--color-div-form);
     margin: 0.6em .5em;
     padding: 1em 1em;
     line-height: 2rem;
@@ -128,11 +150,16 @@
 .sec-result-obtained {
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: var(--color-background-main);
+
 }
 .div-result-obtained {
-    width: 800px;
-    
+    width: fit-content;
+    font-size: var(--font-outsider-size);
+    margin: .5rem;
+    background-color: var(--color-form-cotainer);
+    padding: 1rem;
+    border-radius: .85rem;
 }
 /*result*/
 .result-sec {
@@ -140,7 +167,8 @@
     justify-content: center;
     width: 100%;
     padding: 2rem;
-    background-color: rgb(166, 176, 201);
+    background-image: linear-gradient(var(--color-background-main), var(--color-background-gradient));
+    background-repeat: no-repeat;
 }
 .div-result-do {
     display: flex;
@@ -154,12 +182,70 @@
     border: .5em solid rgb(169, 189, 215);
     background-color: rgb(187, 216, 255);
 }
+.result-show {
+    min-width: 300px;
+    border: .5em solid rgb(169, 189, 215);
+}
 @media screen and (min-width:635px) {    
     .div-result-do {
         min-width: 600px;
     }
+    .result-show {
+        min-width: 600px;
+    }
 }
-
+.query-result {
+    background-color: white;
+    border-top: 5px black solid;
+}
+.upperrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+}
+.upperrow div, .lowerrow div {
+    padding: .75rem;
+}
+.upperrow > .fly-name {
+    background-color: var(--color-background-gradient);
+    color: var(--font-form-color);
+    border-radius: 0rem 0rem .75rem 0rem;
+}
+.lowerrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--color-form-cotainer);
+}
+.date-result {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+@media screen and (min-width:635px) {
+    .date-result {
+        width: 60%;
+    } 
+}
+.btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: .75rem;
+    background-color: var(--color-div-form);
+}
+.btn-reservar {
+    color: var(--font-form-color);
+    background-color: var(--btn-summit-color);
+    padding: 1rem;
+    border: .15rem solid var(--color-btn-form-border);
+    border-radius: 1rem;
+    transition: all .5s;
+}
+.btn-reservar:hover {
+    background-color: var(--color--btn-setting-hover-color);
+}
 div.test {
     width: 1000px;
     height: 100px;

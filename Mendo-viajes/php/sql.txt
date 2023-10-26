@@ -1,0 +1,10 @@
+INSERT INTO `viajes ida` (`numVuelo`, `destino`, `clase`, `equipaje`, `fechaVuelo`, `horaVuelo`, `duracionVuelo`, `precioPer`) VALUES ('840', 'miami', 'economica', 'sin equipaje', '2023-11-01', '04:00:30', '10:30:00', '339922'), ('7540', 'nueva-york', 'economica', 'sin equipaje', '2023-11-01', '12:40:00', '18:30:00', '629090')
+/*CREATE TABLE `mendoviajes`.`viajes ida` 
+(`numVuelo` BIGINT(8) NOT NULL ,
+`destino` ENUM('miami','nueva-york','fort-lauderdale','los-angeles','orlando','montreal','toronto','vancouver','mexico','buenos-aires','madrid','barcelona','londres','frankfurt','berlin','paris','roma','milan','tokio','shanghai') NULL , 
+`clase` ENUM('economica','premium','ejecutiva','primera') NOT NULL , 
+`equipaje` ENUM('sin equipaje','permitido') NOT NULL , 
+`fechaVuelo` DATE NULL , `horaVuelo` TIME NOT NULL , 
+`duracionVuelo` TIME NOT NULL , 
+`precioPer` DOUBLE(255,5) NOT NULL , 
+PRIMARY KEY (`numVuelo`)) ENGINE = InnoDB;*/

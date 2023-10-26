@@ -1,26 +1,65 @@
+:root {
+    --color-font-white: rgb(255, 255, 255);
+    --color-font-black: rgb(0, 0, 0);
+    --color-font-link: rgb(100, 185, 148);
+    --color-font-link-hover: rgb(60, 215, 148);
+    --color-btn: rgb(100, 185, 148);
+    --color-btn-hover: rgb(60, 215, 148);
+    --color-btn-border: rgb(179, 227, 212);
+    --color-background: rgb(190, 226, 207);
+    --color-background-divider: rgb(119, 136, 153);
+    --font-weight-title: 800;
+}
 .main-art{
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 .section-presentation{
     text-align: center;
     width: 100%;
     height: fit-content;
     border-bottom: 2rem solid white;
+    margin-bottom: 1rem;
     background: url('../img/madrid-spain.jpg') no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .section-presentation-div{
+    box-sizing: content-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: .3rem groove black;
+    border-radius: 2.5rem;
     max-width: 1100px;
     height: fit-content;
     margin: 2.5rem;
     padding: 2.5rem;
-    box-sizing: content-box;
-    background-color: white;
-    border: .3rem groove black;
+}
+.section-presentation-div > h1, .section-presentation-div > p {
+    color: white;
+    line-height: 1.5rem;
+}
+.btn-more-about {
+    background-color: var(--color-btn);
+    border: .15rem var(--color-btn-border) ridge;
+    color: var(--color-font-white);
+    transition: all .5s;
+    border-radius: 2.5rem;
+    text-decoration: none;
+    line-height: 2rem;
+    margin: 1.5rem;
+    padding: .5rem;
+}
+.btn-more-about:hover {
+    background-color: var(--color-btn-hover);
+    color: var(--color-font-black);
+    border-color: var(--color-btn);
+}
+@media screen and (min-width:785px) {
+    .section-presentation {
+        height: 500px;
+    }
 }
 .section-presentation img {
     max-width: 100%;
@@ -29,12 +68,85 @@
     border-bottom: .5rem solid black;
     object-fit: scale-down;
 }
+.main-present{
+    display: block;
+    background-color: inherit;
+}
+@media screen and (min-width:785px) {
+    .main-present {
+        width: 950px;
+    }
+}
 .main-introduction {
     display: block;
+    width: inherit;
+    border-top: .5rem solid var(--color-background-divider);
+    border-bottom: .5rem solid var(--color-background-divider);
 }
-.main-present{
-    padding: 1em;
-    display: block;
-    width: 950px;
-    background-color: white;
+.main-introduction-h {
+    margin: 1rem 0rem;
+    padding: 1.5rem;
+    background-color: var(--color-font-white);
+    text-align: center;
+    border: .25rem solid var(--color-background-divider);
+    font-weight: var(--font-weight-title);
+}
+.introduction-bullet-point-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--color-background);
+    width: 100%;
+    padding: 1.5rem;
+}
+.introduction-bullet-point {
+    background-color: var(--color-font-white);
+    margin: 1rem 0rem;
+    width: 95%;
+    border: .5rem var(--color-font-white) solid;
+    border-radius: 1.5rem;
+    text-align: left;
+    box-shadow: 1rem 1rem var(--color-background-divider);
+}
+.introduction-bullet-point > h3, .introduction-bullet-point > p {
+    margin: 1rem .25rem;
+}
+@media screen and (min-width:785px) {
+    .introduction-bullet-point-wrapper {
+        justify-content: space-between;
+    }
+    .introduction-bullet-point {
+        width: 25%;
+    }
+}
+.main-service-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem 0rem;
+    padding: .5rem 0rem;
+    border-bottom: .5rem solid var(--color-background-divider);
+}
+.main-service {
+    margin: 1rem 0rem;
+    background-color: var(--color-font-white);
+    width: max-content;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem var(--color-background-divider);
+}
+.service-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.service-bullet-point {
+    margin: 1rem 2rem;
+}
+a.link-page {
+    color: var(--color-font-link);
+    text-decoration: none;
+}
+a.link-page:hover {
+    color: var(--color-font-link-hover);
+    text-decoration: underline;
 }
