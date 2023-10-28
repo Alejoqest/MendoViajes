@@ -77,3 +77,9 @@ fieldset {
     background-color: green;
     border: 3px groove darkgreen;
 }
+.flow-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}

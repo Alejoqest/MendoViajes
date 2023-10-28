@@ -82,9 +82,11 @@ li a.navop:hover {
 @media screen and (min-width:786px) {
     a i.bx-log-in::after{
         content: " Iniciar sesion";
+        font-family: var(--font-main-family);
     }
     li.nav-li a.nav-mob::after{
-        content: " al cliente"
+        content: " al cliente";
+        font-family: var(--font-main-family);
     }
 }
 body{
@@ -116,7 +118,7 @@ body{
 .flow-footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: 5px;
 }
 .foot-li a, .sml a{

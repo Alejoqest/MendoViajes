@@ -54,7 +54,7 @@ function armar_resultados(datos) {
         `<div id="resultado${i}" class="query-result">
         <div class="upperrow">
         <div class="fly-name"><h4>Vuelo ${num_vuelo}</h4><p>Clase ${clase}</p></div>
-        <div class="price-result"><p> Precio por persona: ${precio_persona}<br>Precio Total: ${precio_persona*in_fly_adult.value}</p></div>
+        <div class="price-result"><p> Precio por persona: $${precio_persona}<br>Precio Total: $${precio_persona*in_fly_adult.value}</p></div>
         </div>
         <div class="lowerrow"><div class="date-result">
         <p>Fecha de ingreso: <br> ${hora_vuelo.toLocaleDateString()} a las ${hora_vuelo.getHours()}:${hora_vuelo.getMinutes()}</p>

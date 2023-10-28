@@ -2,24 +2,25 @@
     /*color font*/
     --color-font-label: rgb(0, 0, 0);
     --color-font-textarea: rgb(255, 255, 255);
-    --color-font-outform: rgb(128, 128, 128);
+    --color-font-outform: rgb(178, 178, 178);
     /*color textarea*/
     --color-textarea-normal: rgb(211, 211, 211);
-    --color-textarea-hover: rgb(144, 238, 144);
-    --color-textarea-focus: rgb(0, 100, 0);
+    --color-textarea-hover: rgb(162, 218, 186);
+    --color-textarea-focus: rgb(42, 104, 80);
     /*color area*/
-    --color-form-area: rgb(242, 242, 242);
-    --color-div: rgb(211, 211, 211);
+    --color-form-area: rgb(171, 185, 195);
+    --color-div: rgb(119, 136, 153);
     /*button forms*/
-    --color-button: rgb(0, 100, 0);
-    --color-button-hover: rgb(0, 150, 0);
-    --color-button-focus: rgb(0, 250, 0);
+    --color-button: rgb(42, 104, 80);
+    --color-button-hover: rgb(100, 185, 148);
+    --color-button-focus: rgb(60, 215, 148);
 }
 /*form container*/
 .form-title-container {
     text-align: center;
     background-color: var(--color-div);
     color: var(--color-font-outform);
+    text-shadow: 0 0 3px var(--color-font-label);
     padding: .5em;
 }
 .form-flow {
@@ -74,12 +75,12 @@
     border: .2em solid var(--color-font-label);
 }
 .btn-form:hover {
-    color: var(--color-form-area);
+    color: var(--color-font-label);
     background-color: var(--color-button-hover);
 }
 .btn-form:focus {
     background-color: var(--color-button-focus);
-    color: var(--color-font-outform);
+    color: var(--color-font-label);
     border-color: var(--color-textarea-normal);
 }
 /*form footer*/
@@ -88,6 +89,7 @@
     text-align: center;
     background-color: var(--color-div);
     color: var(--color-font-outform);
+    text-shadow: 0 0 3px var(--color-font-label);
 }
 @media screen and (max-width:900px) and (orientation: landscape) {
     .form-flow {
