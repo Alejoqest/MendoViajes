@@ -48,7 +48,6 @@ function armar_resultados(datos) {
         let duracion_vuelo = datos[i].duracionVuelo;
         let equipaje = datos[i].equipaje;
         equipaje = equipaje.charAt(0).toUpperCase() + equipaje.slice(1);
-        console.log(hora_vuelo);
         precio_persona = Math.round(datos[i].precioPer);
         result_div.innerHTML += 
         `<div id="resultado${i}" class="query-result">

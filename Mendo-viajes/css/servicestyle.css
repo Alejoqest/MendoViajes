@@ -37,7 +37,7 @@
 .div-container-form {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: inherit;
     background-color: var(--color-form-cotainer);
     border-radius: 2rem;
 }
@@ -49,6 +49,17 @@
     color: white;
     border-radius: 1.5rem;
     max-width: 1000px;
+}
+@media screen and (max-width:635px) {
+    .main-sec {
+        width: 350px;
+    }
+    .div-container-form {
+        width: 335px;
+    }
+    .div-fly-form {
+        width: 300px;
+    }
 }
 .div-fly-way {
     display: flex;
