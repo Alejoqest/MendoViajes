@@ -19,20 +19,58 @@ header("Pragma: no-cache");
 const BDNOMBRE = "mendoviajes";
 const BDUSER = "root";
 const BDPASS = "";
-$result = [];
+const FLOORVALUESFLYINOUT = 4;
 switch($_SERVER["REQUEST_METHOD"]) {
     case 'GET':
+        $table = "viajesida";
+        $_SERVER["vuelta"] = false;
+        if (isset($_SERVER["more"])) {unset($_SERVER["more"]);};
+        $result = [];
         parse_str($_SERVER["QUERY_STRING"], $_SELECT);
+        if (count($_SELECT) >= FLOORVALUESFLYINOUT) {
+            $_SERVER["vuelta"] = true;
+            $table = "vuelosidayvuelta";
+        }
+        if(isset($_SELECT["modalidad"])) {
+            if($_SELECT["modalidad"] == "vue") {
+                $_SERVER["vuelta"] = true;
+                $table = "vuelosidayvuelta";
+            }
+            unset($_SELECT["modalidad"]);
+            $_SERVER["more"] = true;
+        }
         try{
             $bd = new BD(BDUSER, BDPASS, BDNOMBRE);
-            $result += ['datos' => $bd->Select("viajes ida", $_SELECT)];
+            $result += ['datos' => $bd->Select($table, $_SERVER["vuelta"], $_SELECT)];
         } catch (mysqli_sql_exception $mysqle) {
             error_log($mysqle->__toString()."\n", 3, "mysqlierror.txt");
             http_response_code(404);
             $result += ['error' => "No se pudo leer los datos."];
         } finally {
             $result += ['status' => http_response_code()];
+            $result += ['vuelta' => $_SERVER["vuelta"]];
             $result += ['cont' => $_SELECT];
+            echo json_encode($result);
+        }
+    break;
+    case 'POST':
+        $result = [];
+        $table = "reservasvuelosida";
+        parse_str(file_get_contents("php://input"), $_INSERT);
+        if (count($_INSERT) >= FLOORVALUESFLYINOUT) {
+            $table = "reservasvuelosvuelta";
+        }
+        try {
+            $bd = new BD(BDUSER, BDPASS, BDNOMBRE);
+            $result += ['resultado' => $bd->Insertreserve($table, $_INSERT)];
+            http_response_code(201);
+        } catch (mysqli_sql_exception $mysqle) {
+            error_log($mysqle->__toString()."\n", 3, "mysqlierror.txt");
+            http_response_code(404);
+            $result += ['error' => "No se pudo hacer la reservacion"];
+        } finally {
+            $result += ['status' => http_response_code()];
+            $result += ['cont' => $_INSERT];
             echo json_encode($result);
         }
     break;

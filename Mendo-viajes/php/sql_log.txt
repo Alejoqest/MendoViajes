@@ -1,1 +1,1 @@
-SELECT `numVuelo`, `destino`, `clase`, `equipaje`, `fechaVuelo`, `horaVuelo`, `duracionVuelo`, `precioPer` FROM `viajes ida` WHERE `destino`='miami' AND `clase`='economica' AND `fechaVuelo`='2023-11-01' ORDER BY `precioPer`;
+SELECT `vueloVueltaId`, `vueloIdaId`, `numAdultos`, `numMenores` FROM `reservasvuelosvuelta` WHERE `vueloVueltaId` = '1' AND `vueloIdaId` = '11' 

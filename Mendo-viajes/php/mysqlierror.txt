@@ -1,0 +1,185 @@
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `ida`.`clase` = 'economica', `vuelta`.`fechaVuelo` = '2023-11-01', `vuelta`....' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:53
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(53): mysqli_query(Object(mysqli), 'SELECT `id`, `n...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('vuelosidayvuelt...', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' `ida`.`clase` = 'economica', `vuelta`.`fechaVuelo` = '2023-11-01', `vuelta`....' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:55
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(55): mysqli_query(Object(mysqli), 'SELECT `id`, `n...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('vuelosidayvuelt...', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPerVuelo`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(42): mysqli_query(Object(mysqli), 'SELECT `main`.`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPerVuelo`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(42): mysqli_query(Object(mysqli), 'SELECT `main`.`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPerVuelo`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(42): mysqli_query(Object(mysqli), 'SELECT `main`.`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPerVuelo`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(42): mysqli_query(Object(mysqli), 'SELECT `main`.`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPerVuelo`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(42): mysqli_query(Object(mysqli), 'SELECT `main`.`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPerVuelo`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(42): mysqli_query(Object(mysqli), 'SELECT `main`.`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPerVuelo`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(42): mysqli_query(Object(mysqli), 'SELECT `main`.`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPerVuelo`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(42): mysqli_query(Object(mysqli), 'SELECT `main`.`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPerVuelo`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(42): mysqli_query(Object(mysqli), 'SELECT `main`.`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPerVuelo`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(42): mysqli_query(Object(mysqli), 'SELECT `main`.`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPerVuelo`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:42
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(42): mysqli_query(Object(mysqli), 'SELECT `main`.`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', true, Array)
+#2 {main}
+mysqli_sql_exception: Unknown column 'ubicacion' in 'where clause' in C:\xampp\htdocs\Mendo-viajes\php\bs.php:50
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(50): mysqli_query(Object(mysqli), 'SELECT `id`, `n...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', false, Array)
+#2 {main}
+mysqli_sql_exception: Unknown column 'ubicacion' in 'where clause' in C:\xampp\htdocs\Mendo-viajes\php\bs.php:50
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(50): mysqli_query(Object(mysqli), 'SELECT `id`, `n...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('viajesida', false, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:67
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(67): mysqli_query(Object(mysqli), 'ORDER BY `preci...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('vuelosidayvuelt...', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`, `precioPerVuelta`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:68
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(68): mysqli_query(Object(mysqli), 'SELECT `ida`.`i...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('vuelosidayvuelt...', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'vuelta`.`ubicacion` = '10' AND `vuelta`.`fechaVuelta` = '2023-12-01' AND `ida...' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:66
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(66): mysqli_query(Object(mysqli), 'SELECT `ida`.`i...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('vuelosidayvuelt...', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'vuelta`.`ubicacion` = '10' AND `vuelta`.`fechaVuelta` = '2023-12-01' AND `ida...' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:66
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(66): mysqli_query(Object(mysqli), 'SELECT `ida`.`i...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('vuelosidayvuelt...', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'vuelta`.`ubicacion` = '10' AND `vuelta`.`fechaVuelta` = '2023-12-01' AND `ida...' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:66
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(66): mysqli_query(Object(mysqli), 'SELECT `ida`.`i...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('vuelosidayvuelt...', true, Array)
+#2 {main}
+mysqli_sql_exception: Unknown column 'precioPerVuelta' in 'order clause' in C:\xampp\htdocs\Mendo-viajes\php\bs.php:66
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(66): mysqli_query(Object(mysqli), 'SELECT `ida`.`i...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(35): BD->Select('vuelosidayvuelt...', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:56
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(56): mysqli_query(Object(mysqli), 'SELECT `vuelta`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(44): BD->Select('vuelosidayvuelt...', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `precioPer`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:56
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(56): mysqli_query(Object(mysqli), 'SELECT `vuelta`...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(44): BD->Select('vuelosidayvuelt...', true, Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:120
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(120): mysqli_query(Object(mysqli), 'SELECT `vueloId...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosi...', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:120
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(120): mysqli_query(Object(mysqli), 'SELECT `vueloId...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosi...', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`vueloIdaId` = `11` ,' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:121
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(121): mysqli_query(Object(mysqli), 'SELECT `vueloVu...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosv...', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`vueloIdaId` = `11` ,' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:121
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(121): mysqli_query(Object(mysqli), 'SELECT `vueloVu...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosv...', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`vueloIdaId` = `11`' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:121
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(121): mysqli_query(Object(mysqli), 'SELECT `vueloVu...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosv...', Array)
+#2 {main}
+mysqli_sql_exception: Unknown column '1' in 'where clause' in C:\xampp\htdocs\Mendo-viajes\php\bs.php:121
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(121): mysqli_query(Object(mysqli), 'SELECT `vueloVu...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosv...', Array)
+#2 {main}
+mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:127
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(127): mysqli_query(Object(mysqli), 'INSERT INTO `re...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosv...', Array)
+#2 {main}
+mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:127
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(127): mysqli_query(Object(mysqli), 'INSERT INTO `re...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosv...', Array)
+#2 {main}
+mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:127
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(127): mysqli_query(Object(mysqli), 'INSERT INTO `re...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosv...', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '', 'vueloIdaId', 'numAdultos', 'numMenores`) VALUES ('2', '1', '11', '1', '0')' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:128
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(128): mysqli_query(Object(mysqli), 'INSERT INTO `re...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosv...', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:121
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(121): mysqli_query(Object(mysqli), 'SELECT `vueloId...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosi...', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:121
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(121): mysqli_query(Object(mysqli), 'SELECT `vueloId...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosi...', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:121
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(121): mysqli_query(Object(mysqli), 'SELECT `vueloId...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosi...', Array)
+#2 {main}
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Mendo-viajes\php\bs.php:121
+Stack trace:
+#0 C:\xampp\htdocs\Mendo-viajes\php\bs.php(121): mysqli_query(Object(mysqli), 'SELECT `vueloId...')
+#1 C:\xampp\htdocs\Mendo-viajes\php\vuelos.php(65): BD->Insertreserve('reservasvuelosi...', Array)
+#2 {main}

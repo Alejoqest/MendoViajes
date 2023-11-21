@@ -81,7 +81,7 @@ li a.navop:hover {
 }
 @media screen and (min-width:786px) {
     a i.bx-log-in::after{
-        content: " Iniciar sesion";
+        content: " Cuenta";
         font-family: var(--font-main-family);
     }
     li.nav-li a.nav-mob::after{

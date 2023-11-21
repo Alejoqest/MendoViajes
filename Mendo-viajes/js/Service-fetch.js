@@ -10,4 +10,13 @@ class Fly_Fetch {
             },
         })).json();
     }
+    async POST(param) {
+        return await(await fetch(this.url, {
+            method : "POST",
+            headers : {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body : new URLSearchParams(param).toString()
+        })).json();
+    }
 }

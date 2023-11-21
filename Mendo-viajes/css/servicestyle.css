@@ -7,8 +7,8 @@
     --font-form-color: white;
     --font-form-family: black;
     --font-outsider-size: 1.5rem;
-    --btn-summit-color: rgb(77, 129, 88);
-    --color--btn-setting-hover-color: rgb(4, 156, 131);
+    --color-btn-summit: rgb(77, 129, 88);
+    --color-btn-summit-hover: rgb(4, 156, 131);
     --color-background-main: rgb(171, 185, 195);
     --color-background-gradient: rgb(119, 136, 153);
     --color-form-cotainer: rgb(162, 218, 186);
@@ -37,7 +37,7 @@
 .div-container-form {
     display: flex;
     justify-content: center;
-    width: inherit;
+    width: 100%;
     background-color: var(--color-form-cotainer);
     border-radius: 2rem;
 }
@@ -54,9 +54,11 @@
     .main-sec {
         width: 350px;
     }
+    /*
     .div-container-form {
         width: 335px;
     }
+    */
     .div-fly-form {
         width: 300px;
     }
@@ -77,19 +79,20 @@
     transition: all .5s;
 }
 .fly-form-button:hover {
-    border: 0.05rem ridge var(--btn-summit-color);
+    border: 0.05rem ridge var(--color-btn-summit);
     background-color: var(--color-btn-form-border);
-    color: var(--btn-summit-color);
+    color: var(--color-btn-summit);
 }
 .div-fly-form .fly-input {
     border-radius: 5px;
-    border: .2em solid white;
+    border: .2em solid transparent;
+    background-color: var(--font-form-color);
     padding: .3rem .15rem;
     padding-left: 1.5rem;
     margin: .6rem 0rem;
 }
 .div-fly-form .fly-input:focus {
-    border-color: var(--btn-summit-color);
+    border-color: var(--color-btn-summit-hover);
 }
 #Fly-destiny {
     background-image: url(../img/bx-map.svg);
@@ -132,16 +135,16 @@
     background-position: left;
 }
 .fly-form-setting {
-    background-color: var(--btn-summit-color);
+    background-color: var(--color-btn-summit);
     padding: .8rem;
     color: white;
     padding-left: 1.8rem;
-    border: 0.4rem solid var(--btn-summit-color);
+    border: 0.4rem solid var(--color-btn-summit);
     border-radius: 1.5rem;
 }
 .fly-form-setting:hover {
-    background-color: var(--color--btn-setting-hover-color);
-    border-color: var(--color--btn-setting-hover-color);
+    background-color: var(--color-btn-summit-hover);
+    border-color: var(--color-btn-summit-hover);
     transition: all .5s;
 }
 #Fly-form-summit {
@@ -195,6 +198,7 @@
 }
 .result-show {
     min-width: 300px;
+    background-color: var(--color-background-gradient);
     border: .5em solid rgb(169, 189, 215);
 }
 @media screen and (min-width:635px) {    
@@ -206,16 +210,21 @@
     }
 }
 .query-result {
-    background-color: white;
-    border-top: 5px black solid;
+    background-color: var(--color-background-gradient);
+    margin: 0.2rem;
+    border: 0.25rem solid var(--font-form-family);
 }
 .upperrow {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: start;
+    background-color: var(--font-form-color);
 }
-.upperrow div, .lowerrow div {
+.middlerow {
+    background-color: var(--font-form-color);
+}
+.upperrow div, .middlerow div , .lowerrow div, .warningrow div {
     padding: .75rem;
 }
 .upperrow > .fly-name {
@@ -227,7 +236,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: var(--color-form-cotainer);
+    background-color: var(--color-background-main);
 }
 .date-result {
     display: flex;
@@ -236,7 +245,8 @@
 }
 @media screen and (min-width:635px) {
     .date-result {
-        width: 60%;
+        width: 100%;
+        flex-wrap: wrap;
     } 
 }
 .btn-row {
@@ -244,18 +254,50 @@
     flex-wrap: wrap;
     justify-content: right;
     padding: .75rem;
-    background-color: var(--color-div-form);
+    background-color: var(--color-background-main);
 }
-.btn-reservar {
+.query-result-body {
+    margin: .25rem
+}
+.query-fly-indicator {
+    display: flex;
+    justify-content: center;
     color: var(--font-form-color);
-    background-color: var(--btn-summit-color);
+    padding: .7rem;
+}
+.btn-row-in-out {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .75rem;
+    background-color: var(--color-background-gradient);
+}
+.btn-reservar, .btn-reserva-option {
+    color: var(--font-form-color);
+    background-color: var(--color-btn-summit);
     padding: 1rem;
     border: .15rem solid var(--color-btn-form-border);
     border-radius: 1rem;
     transition: all .5s;
 }
-.btn-reservar:hover {
-    background-color: var(--color--btn-setting-hover-color);
+.btn-reservar:hover, .btn-reserva-option:hover {
+    background-color: var(--color-btn-summit-hover);
+}
+.warningrow {
+    text-align: center;
+    color: var(--font-form-color);
+    background-color: var(--color-background-gradient);
+}
+.fly-query-wrapper {
+    padding: 0.2rem;
+    border: .15rem solid var(--color-background-main);
+}
+.div-warning-btn {
+    display: flex;
+    justify-content: center;
+}
+.btn-reserva-option {
+    margin: 0rem 1rem;
 }
 div.test {
     width: 1000px;

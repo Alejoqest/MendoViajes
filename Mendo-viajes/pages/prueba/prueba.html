@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="prueba.css">
+</head>
+<body>
+    <button class="load-button">Cargar datos</button>
+    <hr>
+    <section class="result-sec">
+        <div class="div-result-do">
+            <i class='bx bx-search-alt-2 bx-lg'><p>Haga su busqueda.</p></i>
+        </div>
+    </section>
+    <div id="result${i}">
+        <h4>Vuelo ${i}</h4>
+        <div class="price-result">
+        <p> Precio por persona: ${precio_persona}<br>
+        Precio Total: ${precio_precio*in_fly_adult.value}</p> 
+        </div>
+        <div class="lowerrow">
+        <div class="date-result">
+        Fecha de ingreso: <br> ${fecha_vuelo.toLocaleDateString}
+        </div>
+        </div>
+        </div>
+</body>
+<script src="prueba.js"></script>
+</html>
